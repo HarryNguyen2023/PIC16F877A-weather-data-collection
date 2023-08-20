@@ -1,0 +1,599 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"14 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X/HCH_1000.h
+[e E959 hch1000_phase `uc
+IDLE 0
+DONE 1
+]
+"69 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\RS485_Slave.c
+[e E936 pre_scaler `ui
+TIMER0_DIV_1 1
+TIMER0_DIV_2 2
+TIMER0_DIV_4 4
+TIMER0_DIV_8 8
+TIMER0_DIV_16 16
+TIMER0_DIV_32 32
+TIMER0_DIV_64 64
+TIMER0_DIV_128 128
+TIMER0_DIV_256 256
+]
+"56 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\PIC16F877A_timer0.c
+[e E878 pre_scaler `ui
+TIMER0_DIV_1 1
+TIMER0_DIV_2 2
+TIMER0_DIV_4 4
+TIMER0_DIV_8 8
+TIMER0_DIV_16 16
+TIMER0_DIV_32 32
+TIMER0_DIV_64 64
+TIMER0_DIV_128 128
+TIMER0_DIV_256 256
+]
+"89
+[e E888 timer0_edge `uc
+TIMER0_RISING 0
+TIMER0_FALLING 1
+]
+"14 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X/HCH_1000.h
+[e E883 hch1000_phase `uc
+IDLE 0
+DONE 1
+]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"32 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"8 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\HCH_1000.c
+[v _HCH1000_calFreq HCH1000_calFreq `(ui  1 s 2 HCH1000_calFreq ]
+"14
+[v _HCH1000_stopMeasure HCH1000_stopMeasure `(v  1 s 1 HCH1000_stopMeasure ]
+"22
+[v _HCH1000_Init HCH1000_Init `(v  1 e 1 0 ]
+"32
+[v _HCH1000_getFreq HCH1000_getFreq `(ui  1 e 2 0 ]
+"38
+[v _HCH1000_timer1Ovf HCH1000_timer1Ovf `(v  1 e 1 0 ]
+"50
+[v _HCH1000_startMeasure HCH1000_startMeasure `(v  1 e 1 0 ]
+"56
+[v _HCH1000_readFreq HCH1000_readFreq `(uc  1 e 1 0 ]
+"6 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\PIC16F877A_input_capture.c
+[v _timer1Init timer1Init `(v  1 s 1 timer1Init ]
+"20
+[v _ccp1InterruptInit ccp1InterruptInit `(v  1 s 1 ccp1InterruptInit ]
+"32
+[v _disableCCP1 disableCCP1 `(v  1 s 1 disableCCP1 ]
+"40
+[v _captureRisingInit captureRisingInit `(v  1 e 1 0 ]
+"6 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\PIC16F877A_SPI.c
+[v _SPI_Master_Init SPI_Master_Init `(v  1 e 1 0 ]
+"80
+[v _SPI_Tx_Byte SPI_Tx_Byte `(v  1 e 1 0 ]
+[v i1_SPI_Tx_Byte SPI_Tx_Byte `(v  1 e 1 0 ]
+"120
+[v _SPI_Rx_byte SPI_Rx_byte `(uc  1 e 1 0 ]
+"6 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\PIC16F877A_timer0.c
+[v _timer0SetPrescaler timer0SetPrescaler `(v  1 s 1 timer0SetPrescaler ]
+"63
+[v _timer0TimerInit timer0TimerInit `(v  1 e 1 0 ]
+"48 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\PIC16F877A_UART.c
+[v _UARTTransRcvInit UARTTransRcvInit `(v  1 e 1 0 ]
+"73
+[v _UARTsendChar UARTsendChar `(v  1 e 1 0 ]
+"81
+[v _UARTsendString UARTsendString `(v  1 e 1 0 ]
+"88
+[v _UARTrcvChar UARTrcvChar `(uc  1 e 1 0 ]
+"101
+[v _UARTrcvString UARTrcvString `(i  1 e 2 0 ]
+"18 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\RS485_Slave.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+"64
+[v _main main `(v  1 e 1 0 ]
+"4 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\Slave_ModbusRTU.c
+[v _ModbusRTUslaveInit ModbusRTUslaveInit `(v  1 e 1 0 ]
+"14
+[v _Slave_SendData Slave_SendData `(v  1 e 1 0 ]
+"40
+[v _CRCcheck CRCcheck `(ui  1 e 2 0 ]
+"27 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X/Slave_ModbusRTU.h
+[s S176 ErrorFrame 2 `uc 1 Function_error 1 0 `uc 1 CRC_error 1 1 ]
+"61 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\Slave_ModbusRTU.c
+[v _ReceiveData_Check ReceiveData_Check `(S176  1 e 2 0 ]
+"83
+[v _SendErrorFrame SendErrorFrame `(v  1 e 1 0 ]
+"103
+[v _Slave_DataHandling Slave_DataHandling `(b  1 e 0 0 ]
+"9 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\TC72.c
+[v _TC72_Write TC72_Write `(v  1 e 1 0 ]
+[v i1_TC72_Write TC72_Write `(v  1 e 1 0 ]
+"22
+[v _TC72_Init TC72_Init `(v  1 e 1 0 ]
+"36
+[v _TC72_Read TC72_Read `(i  1 e 2 0 ]
+"52
+[v _TC72_toFloat TC72_toFloat `(f  1 e 3 0 ]
+"13 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X/HCH_1000.h
+[v _hch1000_freq hch1000_freq `ui  1 e 2 0 ]
+"14
+[v _hch1000_state hch1000_state `uc  1 e 1 0 ]
+"15
+[v _edgeT1 edgeT1 `ui  1 e 2 0 ]
+"16
+[v _edgeT2 edgeT2 `ui  1 e 2 0 ]
+"17
+[v _timer1_ovf timer1_ovf `ui  1 e 2 0 ]
+"9 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X/PIC16F877A_UART.h
+[v _uart_str_idx@PIC16F877A_UART$F375 uart_str_idx `ui  1 s 2 uart_str_idx ]
+"23 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X/Slave_ModbusRTU.h
+[v _ModbusFrame ModbusFrame `[9]uc  1 e 9 0 ]
+"24
+[v _send send `b  1 e 0 0 ]
+"60 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"635
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"809
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"886
+[v _CCPR1 CCPR1 `VEus  1 e 2 @21 ]
+"907
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @23 ]
+"1060
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1067
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1500
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S241 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"1885
+[s S250 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S255 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DATA 1 0 :1:5 
+]
+[s S261 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S266 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S271 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S276 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[u S281 . 1 `S241 1 . 1 0 `S250 1 . 1 0 `S255 1 . 1 0 `S261 1 . 1 0 `S266 1 . 1 0 `S271 1 . 1 0 `S276 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES281  1 e 1 @148 ]
+"2081
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2421
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"2439
+[v _CCP1IE CCP1IE `VEb  1 e 0 @1122 ]
+"2442
+[v _CCP1IF CCP1IF `VEb  1 e 0 @98 ]
+"2445
+[v _CCP1M0 CCP1M0 `VEb  1 e 0 @184 ]
+"2448
+[v _CCP1M1 CCP1M1 `VEb  1 e 0 @185 ]
+"2451
+[v _CCP1M2 CCP1M2 `VEb  1 e 0 @186 ]
+"2454
+[v _CCP1M3 CCP1M3 `VEb  1 e 0 @187 ]
+"2499
+[v _CKE CKE `VEb  1 e 0 @1190 ]
+"2502
+[v _CKP CKP `VEb  1 e 0 @164 ]
+"2520
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"2574
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2619
+[v _OERR OERR `VEb  1 e 0 @193 ]
+"2634
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2640
+[v _PS0 PS0 `VEb  1 e 0 @1032 ]
+"2643
+[v _PS1 PS1 `VEb  1 e 0 @1033 ]
+"2646
+[v _PS2 PS2 `VEb  1 e 0 @1034 ]
+"2649
+[v _PSA PSA `VEb  1 e 0 @1035 ]
+"2682
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"2745
+[v _RCIE RCIE `VEb  1 e 0 @1125 ]
+"2748
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"2754
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"2799
+[v _RX9 RX9 `VEb  1 e 0 @198 ]
+"2814
+[v _SMP SMP `VEb  1 e 0 @1191 ]
+"2817
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"2823
+[v _SSPEN SSPEN `VEb  1 e 0 @165 ]
+"2832
+[v _SSPM0 SSPM0 `VEb  1 e 0 @160 ]
+"2835
+[v _SSPM1 SSPM1 `VEb  1 e 0 @161 ]
+"2838
+[v _SSPM2 SSPM2 `VEb  1 e 0 @162 ]
+"2841
+[v _SSPM3 SSPM3 `VEb  1 e 0 @163 ]
+"2847
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"2850
+[v _T0CS T0CS `VEb  1 e 0 @1037 ]
+"2862
+[v _T1CKPS0 T1CKPS0 `VEb  1 e 0 @132 ]
+"2865
+[v _T1CKPS1 T1CKPS1 `VEb  1 e 0 @133 ]
+"2883
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"2886
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"2889
+[v _TMR1CS TMR1CS `VEb  1 e 0 @129 ]
+"2892
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1120 ]
+"2895
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"2898
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"2943
+[v _TRISB1 TRISB1 `VEb  1 e 0 @1073 ]
+"2970
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"2973
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"2976
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"2979
+[v _TRISC5 TRISC5 `VEb  1 e 0 @1085 ]
+"2982
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1086 ]
+"2985
+[v _TRISC7 TRISC7 `VEb  1 e 0 @1087 ]
+"2988
+[v _TRISD0 TRISD0 `VEb  1 e 0 @1088 ]
+"3021
+[v _TRMT TRMT `VEb  1 e 0 @1217 ]
+"3027
+[v _TX9 TX9 `VEb  1 e 0 @1222 ]
+"3036
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"3048
+[v _WCOL WCOL `VEb  1 e 0 @167 ]
+"11 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\RS485_Slave.c
+[v _count_temp count_temp `ui  1 e 2 0 ]
+"12
+[v _count_humid count_humid `ui  1 e 2 0 ]
+"13
+[v _temp temp `i  1 e 2 0 ]
+"14
+[v _humid_freq humid_freq `ui  1 e 2 0 ]
+"15
+[v _rcv_buffer rcv_buffer `[9]uc  1 e 9 0 ]
+"64
+[v _main main `(v  1 e 1 0 ]
+{
+"80
+} 0
+"63 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\PIC16F877A_timer0.c
+[v _timer0TimerInit timer0TimerInit `(v  1 e 1 0 ]
+{
+[v timer0TimerInit@prescaler prescaler `ui  1 p 2 2 ]
+"77
+} 0
+"6
+[v _timer0SetPrescaler timer0SetPrescaler `(v  1 s 1 timer0SetPrescaler ]
+{
+[v timer0SetPrescaler@prescaler prescaler `ui  1 p 2 0 ]
+"58
+} 0
+"22 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\TC72.c
+[v _TC72_Init TC72_Init `(v  1 e 1 0 ]
+{
+"33
+} 0
+"9
+[v _TC72_Write TC72_Write `(v  1 e 1 0 ]
+{
+[v TC72_Write@address address `uc  1 a 1 wreg ]
+[v TC72_Write@address address `uc  1 a 1 wreg ]
+[v TC72_Write@value value `uc  1 p 1 1 ]
+"12
+[v TC72_Write@address address `uc  1 a 1 2 ]
+"19
+} 0
+"80 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\PIC16F877A_SPI.c
+[v _SPI_Tx_Byte SPI_Tx_Byte `(v  1 e 1 0 ]
+{
+[v SPI_Tx_Byte@data data `uc  1 a 1 wreg ]
+[v SPI_Tx_Byte@data data `uc  1 a 1 wreg ]
+"82
+[v SPI_Tx_Byte@data data `uc  1 a 1 0 ]
+"87
+} 0
+"6
+[v _SPI_Master_Init SPI_Master_Init `(v  1 e 1 0 ]
+{
+"30
+} 0
+"4 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\Slave_ModbusRTU.c
+[v _ModbusRTUslaveInit ModbusRTUslaveInit `(v  1 e 1 0 ]
+{
+"11
+} 0
+"48 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\PIC16F877A_UART.c
+[v _UARTTransRcvInit UARTTransRcvInit `(v  1 e 1 0 ]
+{
+"70
+} 0
+"22 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\HCH_1000.c
+[v _HCH1000_Init HCH1000_Init `(v  1 e 1 0 ]
+{
+"29
+} 0
+"40 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\PIC16F877A_input_capture.c
+[v _captureRisingInit captureRisingInit `(v  1 e 1 0 ]
+{
+"53
+} 0
+"6
+[v _timer1Init timer1Init `(v  1 s 1 timer1Init ]
+{
+"17
+} 0
+"20
+[v _ccp1InterruptInit ccp1InterruptInit `(v  1 s 1 ccp1InterruptInit ]
+{
+"29
+} 0
+"18 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\RS485_Slave.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"62
+} 0
+"101 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\PIC16F877A_UART.c
+[v _UARTrcvString UARTrcvString `(i  1 e 2 0 ]
+{
+[v UARTrcvString@rcv_buffer rcv_buffer `*.4uc  1 a 1 wreg ]
+[v UARTrcvString@rcv_buffer rcv_buffer `*.4uc  1 a 1 wreg ]
+[v UARTrcvString@length length `ui  1 p 2 1 ]
+"104
+[v UARTrcvString@rcv_buffer rcv_buffer `*.4uc  1 a 1 5 ]
+"121
+} 0
+"88
+[v _UARTrcvChar UARTrcvChar `(uc  1 e 1 0 ]
+{
+"96
+[v UARTrcvChar@c c `uc  1 a 1 0 ]
+"98
+} 0
+"36 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\TC72.c
+[v _TC72_Read TC72_Read `(i  1 e 2 0 ]
+{
+"44
+[v TC72_Read@lsb lsb `uc  1 a 1 8 ]
+"43
+[v TC72_Read@msb msb `uc  1 a 1 7 ]
+"48
+} 0
+"9
+[v i1_TC72_Write TC72_Write `(v  1 e 1 0 ]
+{
+[v i1TC72_Write@address address `uc  1 a 1 wreg ]
+[v i1TC72_Write@address address `uc  1 a 1 wreg ]
+[v i1TC72_Write@value value `uc  1 p 1 1 ]
+"12
+[v i1TC72_Write@address address `uc  1 a 1 2 ]
+"19
+} 0
+"80 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\PIC16F877A_SPI.c
+[v i1_SPI_Tx_Byte SPI_Tx_Byte `(v  1 e 1 0 ]
+{
+[v i1SPI_Tx_Byte@data data `uc  1 a 1 wreg ]
+[v i1SPI_Tx_Byte@data data `uc  1 a 1 wreg ]
+"82
+[v i1SPI_Tx_Byte@data data `uc  1 a 1 0 ]
+"87
+} 0
+"120
+[v _SPI_Rx_byte SPI_Rx_byte `(uc  1 e 1 0 ]
+{
+"125
+} 0
+"14 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\Slave_ModbusRTU.c
+[v _Slave_SendData Slave_SendData `(v  1 e 1 0 ]
+{
+"29
+[v Slave_SendData@CRC CRC `ui  1 a 2 9 ]
+"19
+[v Slave_SendData@humidH humidH `uc  1 a 1 8 ]
+"18
+[v Slave_SendData@humidL humidL `uc  1 a 1 7 ]
+"17
+[v Slave_SendData@tempH tempH `uc  1 a 1 6 ]
+"16
+[v Slave_SendData@tempL tempL `uc  1 a 1 5 ]
+"14
+[v Slave_SendData@temp temp `i  1 p 2 0 ]
+[v Slave_SendData@humid_frq humid_frq `ui  1 p 2 2 ]
+[v Slave_SendData@function function `uc  1 p 1 4 ]
+"37
+} 0
+"103
+[v _Slave_DataHandling Slave_DataHandling `(b  1 e 0 0 ]
+{
+[v Slave_DataHandling@buf buf `*.4uc  1 a 1 wreg ]
+[s S176 ErrorFrame 2 `uc 1 Function_error 1 0 `uc 1 CRC_error 1 1 ]
+"115
+[v Slave_DataHandling@eframe eframe `S176  1 a 2 7 ]
+"103
+[v Slave_DataHandling@buf buf `*.4uc  1 a 1 wreg ]
+"106
+[v Slave_DataHandling@buf buf `*.4uc  1 a 1 9 ]
+"124
+} 0
+"83
+[v _SendErrorFrame SendErrorFrame `(v  1 e 1 0 ]
+{
+"92
+[v SendErrorFrame@CRC CRC `ui  1 a 2 12 ]
+[s S176 ErrorFrame 2 `uc 1 Function_error 1 0 `uc 1 CRC_error 1 1 ]
+"83
+[v SendErrorFrame@Eframe Eframe `S176  1 p 2 0 ]
+[v SendErrorFrame@function function `uc  1 p 1 2 ]
+"100
+} 0
+"81 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\PIC16F877A_UART.c
+[v _UARTsendString UARTsendString `(v  1 e 1 0 ]
+{
+[v UARTsendString@str str `*.4uc  1 a 1 wreg ]
+"83
+[v UARTsendString@i i `i  1 a 2 2 ]
+"81
+[v UARTsendString@str str `*.4uc  1 a 1 wreg ]
+"83
+[v UARTsendString@str str `*.4uc  1 a 1 4 ]
+"85
+} 0
+"73
+[v _UARTsendChar UARTsendChar `(v  1 e 1 0 ]
+{
+[v UARTsendChar@c c `uc  1 a 1 wreg ]
+[v UARTsendChar@c c `uc  1 a 1 wreg ]
+[v UARTsendChar@c c `uc  1 a 1 0 ]
+"78
+} 0
+"27 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X/Slave_ModbusRTU.h
+[s S176 ErrorFrame 2 `uc 1 Function_error 1 0 `uc 1 CRC_error 1 1 ]
+"61 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\Slave_ModbusRTU.c
+[v _ReceiveData_Check ReceiveData_Check `(S176  1 e 2 0 ]
+{
+[v ReceiveData_Check@str str `*.4uc  1 a 1 wreg ]
+"63
+[v ReceiveData_Check@eframe eframe `S176  1 a 2 4 ]
+"71
+[v ReceiveData_Check@CRC CRC `ui  1 a 2 2 ]
+"73
+[v ReceiveData_Check@CRCH CRCH `uc  1 a 1 1 ]
+"72
+[v ReceiveData_Check@CRCL CRCL `uc  1 a 1 0 ]
+"61
+[v ReceiveData_Check@str str `*.4uc  1 a 1 wreg ]
+"65
+[v ReceiveData_Check@str str `*.4uc  1 a 1 6 ]
+"80
+} 0
+"40
+[v _CRCcheck CRCcheck `(ui  1 e 2 0 ]
+{
+[v CRCcheck@buf buf `*.4uc  1 a 1 wreg ]
+"45
+[v CRCcheck@index index `ui  1 a 2 8 ]
+"42
+[v CRCcheck@pos pos `ui  1 a 2 6 ]
+"41
+[v CRCcheck@crc crc `ui  1 a 2 10 ]
+"40
+[v CRCcheck@buf buf `*.4uc  1 a 1 wreg ]
+[v CRCcheck@len len `uc  1 p 1 0 ]
+[v CRCcheck@buf buf `*.4uc  1 a 1 5 ]
+"58
+} 0
+"38 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\HCH_1000.c
+[v _HCH1000_timer1Ovf HCH1000_timer1Ovf `(v  1 e 1 0 ]
+{
+"41
+} 0
+"50
+[v _HCH1000_startMeasure HCH1000_startMeasure `(v  1 e 1 0 ]
+{
+"53
+} 0
+"56
+[v _HCH1000_readFreq HCH1000_readFreq `(uc  1 e 1 0 ]
+{
+"74
+} 0
+"14
+[v _HCH1000_stopMeasure HCH1000_stopMeasure `(v  1 s 1 HCH1000_stopMeasure ]
+{
+"17
+} 0
+"8
+[v _HCH1000_calFreq HCH1000_calFreq `(ui  1 s 2 HCH1000_calFreq ]
+{
+"10
+[v HCH1000_calFreq@timer1_ticks timer1_ticks `ul  1 a 4 14 ]
+"12
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"32 C:\Users\84935\MPLABXProjects\PIC16F877A_RS485_Slave.X\HCH_1000.c
+[v _HCH1000_getFreq HCH1000_getFreq `(ui  1 e 2 0 ]
+{
+"35
+} 0

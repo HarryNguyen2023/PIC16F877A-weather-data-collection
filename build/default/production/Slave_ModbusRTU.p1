@@ -1,0 +1,594 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"2943 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2943: extern volatile __bit TRISB1 __attribute__((address(0x431)));
+[v _TRISB1 `Vb ~T0 @X0 0 e@1073 ]
+"2682
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2682: extern volatile __bit RB1 __attribute__((address(0x31)));
+[v _RB1 `Vb ~T0 @X0 0 e@49 ]
+"13 ./PIC16F877A_UART.h
+[; ;./PIC16F877A_UART.h: 13: void UARTTransRcvInit(void);
+[v _UARTTransRcvInit `(v ~T0 @X0 0 ef ]
+"37 ./Slave_ModbusRTU.h
+[; ;./Slave_ModbusRTU.h: 37: uint16_t CRCcheck(uint8_t *buf, uint8_t len);
+[v _CRCcheck `(ui ~T0 @X0 0 ef2`*uc`uc ]
+"15 ./PIC16F877A_UART.h
+[; ;./PIC16F877A_UART.h: 15: void UARTsendString(char *str);
+[v _UARTsendString `(v ~T0 @X0 0 ef1`*uc ]
+"27 ./Slave_ModbusRTU.h
+[; ;./Slave_ModbusRTU.h: 27: typedef struct ErrorFrame{
+[s S95 `uc 1 `uc 1 ]
+[n S95 ErrorFrame Function_error CRC_error ]
+"55 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 55: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"62
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 62: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"69
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 69: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"76
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 76: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"162
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 162: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"169
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 169: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"219
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 219: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"281
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 281: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"343
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 343: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"405
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 405: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"437
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 437: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"457
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 457: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"535
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 535: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"597
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 597: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"637
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 637: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"644
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 644: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"651
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 651: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"658
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 658: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"733
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 733: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"740
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 740: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"811
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 811: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"818
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 818: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"888
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 888: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"895
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 895: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"902
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 902: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"909
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 909: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"967
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 967: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1062
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1062: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1069
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1069: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1076
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1076: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1083
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1083: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1090
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1090: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1097
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1097: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1155
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1155: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1162
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1162: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1258
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1258: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1328
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1328: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1378
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1378: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1440
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1440: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1502
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1502: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1564
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1564: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1621
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1621: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1683
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1683: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1723
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1723: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1757
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1757: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1819
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1819: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1826
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1826: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1833
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1833: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2002
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2002: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2083
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2083: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2090
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2090: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2160
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2160: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2225
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2225: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2232
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2232: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2291
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2291: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2298
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2298: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2305
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2305: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2312
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2312: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2319
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2319: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2364
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2364: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"9 ./PIC16F877A_UART.h
+[; ;./PIC16F877A_UART.h: 9: static uint16_t uart_str_idx = 0;
+[v _uart_str_idx `ui ~T0 @X0 1 s ]
+[i _uart_str_idx
+-> -> 0 `i `ui
+]
+"23 ./Slave_ModbusRTU.h
+[; ;./Slave_ModbusRTU.h: 23: uint8_t ModbusFrame[4 + 5];
+[v _ModbusFrame `uc ~T0 @X0 -> 9 `i e ]
+"24
+[; ;./Slave_ModbusRTU.h: 24: __bit send = 0;
+[v _send `b ~T0 @X0 1 e ]
+[i _send
+-> -> 0 `i `b
+]
+"4 Slave_ModbusRTU.c
+[; ;Slave_ModbusRTU.c: 4: void ModbusRTUslaveInit()
+[v _ModbusRTUslaveInit `(v ~T0 @X0 1 ef ]
+"5
+[; ;Slave_ModbusRTU.c: 5: {
+{
+[e :U _ModbusRTUslaveInit ]
+[f ]
+"7
+[; ;Slave_ModbusRTU.c: 7:     TRISB1 = 0;
+[e = _TRISB1 -> -> 0 `i `b ]
+"8
+[; ;Slave_ModbusRTU.c: 8:     RB1 = 0;
+[e = _RB1 -> -> 0 `i `b ]
+"10
+[; ;Slave_ModbusRTU.c: 10:     UARTTransRcvInit();
+[e ( _UARTTransRcvInit ..  ]
+"11
+[; ;Slave_ModbusRTU.c: 11: }
+[e :UE 96 ]
+}
+"14
+[; ;Slave_ModbusRTU.c: 14: void Slave_SendData(int temp, uint16_t humid_frq, uint8_t function){
+[v _Slave_SendData `(v ~T0 @X0 1 ef3`i`ui`uc ]
+{
+[e :U _Slave_SendData ]
+[v _temp `i ~T0 @X0 1 r1 ]
+[v _humid_frq `ui ~T0 @X0 1 r2 ]
+[v _function `uc ~T0 @X0 1 r3 ]
+[f ]
+"16
+[; ;Slave_ModbusRTU.c: 16:     uint8_t tempL = temp & 0xFF;
+[v _tempL `uc ~T0 @X0 1 a ]
+[e = _tempL -> & _temp -> 255 `i `uc ]
+"17
+[; ;Slave_ModbusRTU.c: 17:     uint8_t tempH = (temp >> 8) & 0xFF;
+[v _tempH `uc ~T0 @X0 1 a ]
+[e = _tempH -> & >> _temp -> 8 `i -> 255 `i `uc ]
+"18
+[; ;Slave_ModbusRTU.c: 18:     uint8_t humidL = humid_frq & 0xFF;
+[v _humidL `uc ~T0 @X0 1 a ]
+[e = _humidL -> & _humid_frq -> -> 255 `i `ui `uc ]
+"19
+[; ;Slave_ModbusRTU.c: 19:     uint8_t humidH = (humid_frq >> 8) & 0xFF;
+[v _humidH `uc ~T0 @X0 1 a ]
+[e = _humidH -> & >> _humid_frq -> 8 `i -> -> 255 `i `ui `uc ]
+"21
+[; ;Slave_ModbusRTU.c: 21:     if(function == (uint8_t)0x33){
+[e $ ! == -> _function `i -> -> -> 51 `i `uc `i 98  ]
+{
+"23
+[; ;Slave_ModbusRTU.c: 23:         ModbusFrame[0] = (uint8_t)0x31;
+[e = *U + &U _ModbusFrame * -> -> -> 0 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux -> -> 49 `i `uc ]
+"24
+[; ;Slave_ModbusRTU.c: 24:         ModbusFrame[1] = function;
+[e = *U + &U _ModbusFrame * -> -> -> 1 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux _function ]
+"25
+[; ;Slave_ModbusRTU.c: 25:         ModbusFrame[2] = tempL;
+[e = *U + &U _ModbusFrame * -> -> -> 2 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux _tempL ]
+"26
+[; ;Slave_ModbusRTU.c: 26:         ModbusFrame[3] = tempH;
+[e = *U + &U _ModbusFrame * -> -> -> 3 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux _tempH ]
+"27
+[; ;Slave_ModbusRTU.c: 27:         ModbusFrame[4] = humidL;
+[e = *U + &U _ModbusFrame * -> -> -> 4 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux _humidL ]
+"28
+[; ;Slave_ModbusRTU.c: 28:         ModbusFrame[5] = humidH;
+[e = *U + &U _ModbusFrame * -> -> -> 5 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux _humidH ]
+"29
+[; ;Slave_ModbusRTU.c: 29:         uint16_t CRC = CRCcheck(ModbusFrame, 4 + 2);
+[v _CRC `ui ~T0 @X0 1 a ]
+[e = _CRC ( _CRCcheck (2 , &U _ModbusFrame -> + -> 4 `i -> 2 `i `uc ]
+"30
+[; ;Slave_ModbusRTU.c: 30:         ModbusFrame[6] = CRC & 0xFF;
+[e = *U + &U _ModbusFrame * -> -> -> 6 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux -> & _CRC -> -> 255 `i `ui `uc ]
+"31
+[; ;Slave_ModbusRTU.c: 31:         ModbusFrame[7] = (CRC >> 8) & 0xFF;
+[e = *U + &U _ModbusFrame * -> -> -> 7 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux -> & >> _CRC -> 8 `i -> -> 255 `i `ui `uc ]
+"32
+[; ;Slave_ModbusRTU.c: 32:         ModbusFrame[8] = '\0';
+[e = *U + &U _ModbusFrame * -> -> -> 8 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux -> -> 0 `ui `uc ]
+"34
+[; ;Slave_ModbusRTU.c: 34:         UARTsendString((char*)ModbusFrame);
+[e ( _UARTsendString (1 -> &U _ModbusFrame `*uc ]
+"35
+[; ;Slave_ModbusRTU.c: 35:         send = 1;
+[e = _send -> -> 1 `i `b ]
+"36
+[; ;Slave_ModbusRTU.c: 36:     }
+}
+[e :U 98 ]
+"37
+[; ;Slave_ModbusRTU.c: 37: }
+[e :UE 97 ]
+}
+"40
+[; ;Slave_ModbusRTU.c: 40: uint16_t CRCcheck(uint8_t buf[], uint8_t len){
+[v _CRCcheck `(ui ~T0 @X0 1 ef2`*uc`uc ]
+{
+[e :U _CRCcheck ]
+[v _buf `*uc ~T0 @X0 1 r1 ]
+[v _len `uc ~T0 @X0 1 r2 ]
+[f ]
+"41
+[; ;Slave_ModbusRTU.c: 41:     uint16_t crc = 0xFFFF;
+[v _crc `ui ~T0 @X0 1 a ]
+[e = _crc -> 65535 `ui ]
+"42
+[; ;Slave_ModbusRTU.c: 42:     for (uint16_t pos = 0; pos < len; pos++)
+{
+[v _pos `ui ~T0 @X0 1 a ]
+[e = _pos -> -> 0 `i `ui ]
+[e $U 103  ]
+[e :U 100 ]
+"43
+[; ;Slave_ModbusRTU.c: 43:     {
+{
+"44
+[; ;Slave_ModbusRTU.c: 44:         crc ^= (unsigned int)buf[pos];
+[e =^ _crc -> *U + _buf * -> _pos `ux -> -> # *U _buf `ui `ux `ui ]
+"45
+[; ;Slave_ModbusRTU.c: 45:         for (uint16_t index = 8; index != 0; index--)
+{
+[v _index `ui ~T0 @X0 1 a ]
+[e = _index -> -> 8 `i `ui ]
+[e $ != _index -> -> 0 `i `ui 104  ]
+[e $U 105  ]
+[e :U 104 ]
+"46
+[; ;Slave_ModbusRTU.c: 46:         {
+{
+"47
+[; ;Slave_ModbusRTU.c: 47:             if ((crc & 0x0001) != 0){
+[e $ ! != & _crc -> -> 1 `i `ui -> -> 0 `i `ui 107  ]
+{
+"48
+[; ;Slave_ModbusRTU.c: 48:                 crc >>= 1;
+[e =>> _crc -> -> 1 `i `ui ]
+"49
+[; ;Slave_ModbusRTU.c: 49:                 crc ^= 0xA001;
+[e =^ _crc -> 40961 `ui ]
+"50
+[; ;Slave_ModbusRTU.c: 50:             } else
+}
+[e $U 108  ]
+[e :U 107 ]
+"51
+[; ;Slave_ModbusRTU.c: 51:             {
+{
+"52
+[; ;Slave_ModbusRTU.c: 52:                 crc >>= 1;
+[e =>> _crc -> -> 1 `i `ui ]
+"53
+[; ;Slave_ModbusRTU.c: 53:             }
+}
+[e :U 108 ]
+"54
+[; ;Slave_ModbusRTU.c: 54:         }
+}
+[e -- _index -> -> 1 `i `ui ]
+[e $ != _index -> -> 0 `i `ui 104  ]
+[e :U 105 ]
+}
+"55
+[; ;Slave_ModbusRTU.c: 55:     }
+}
+[e ++ _pos -> -> 1 `i `ui ]
+[e :U 103 ]
+[e $ < _pos -> _len `ui 100  ]
+[e :U 101 ]
+}
+"57
+[; ;Slave_ModbusRTU.c: 57:     return crc;
+[e ) _crc ]
+[e $UE 99  ]
+"58
+[; ;Slave_ModbusRTU.c: 58: }
+[e :UE 99 ]
+}
+"61
+[; ;Slave_ModbusRTU.c: 61: ErrorFrame ReceiveData_Check(uint8_t *str)
+[v _ReceiveData_Check `(S95 ~T0 @X0 1 ef1`*uc ]
+"62
+[; ;Slave_ModbusRTU.c: 62: {
+{
+[e :U _ReceiveData_Check ]
+"61
+[; ;Slave_ModbusRTU.c: 61: ErrorFrame ReceiveData_Check(uint8_t *str)
+[v _str `*uc ~T0 @X0 1 r1 ]
+"62
+[; ;Slave_ModbusRTU.c: 62: {
+[f ]
+"63
+[; ;Slave_ModbusRTU.c: 63:     ErrorFrame eframe;
+[v _eframe `S95 ~T0 @X0 1 a ]
+"65
+[; ;Slave_ModbusRTU.c: 65:     if(str[1] != (uint8_t)0x33){
+[e $ ! != -> *U + _str * -> -> 1 `i `x -> -> # *U _str `i `x `i -> -> -> 51 `i `uc `i 110  ]
+{
+"66
+[; ;Slave_ModbusRTU.c: 66:         eframe.Function_error = 1;
+[e = . _eframe 0 -> -> 1 `i `uc ]
+"67
+[; ;Slave_ModbusRTU.c: 67:     }else{
+}
+[e $U 111  ]
+[e :U 110 ]
+{
+"68
+[; ;Slave_ModbusRTU.c: 68:         eframe.Function_error = 0;
+[e = . _eframe 0 -> -> 0 `i `uc ]
+"69
+[; ;Slave_ModbusRTU.c: 69:     }
+}
+[e :U 111 ]
+"71
+[; ;Slave_ModbusRTU.c: 71:     uint16_t CRC = CRCcheck(str, 4 + 2);
+[v _CRC `ui ~T0 @X0 1 a ]
+[e = _CRC ( _CRCcheck (2 , _str -> + -> 4 `i -> 2 `i `uc ]
+"72
+[; ;Slave_ModbusRTU.c: 72:     uint8_t CRCL = CRC & 0xFF;
+[v _CRCL `uc ~T0 @X0 1 a ]
+[e = _CRCL -> & _CRC -> -> 255 `i `ui `uc ]
+"73
+[; ;Slave_ModbusRTU.c: 73:     uint8_t CRCH = CRC >> 8;
+[v _CRCH `uc ~T0 @X0 1 a ]
+[e = _CRCH -> >> _CRC -> 8 `i `uc ]
+"74
+[; ;Slave_ModbusRTU.c: 74:     if(str[6] != CRCL || str[7] != CRCH){
+[e $ ! || != -> *U + _str * -> -> 6 `i `x -> -> # *U _str `i `x `i -> _CRCL `i != -> *U + _str * -> -> 7 `i `x -> -> # *U _str `i `x `i -> _CRCH `i 112  ]
+{
+"75
+[; ;Slave_ModbusRTU.c: 75:         eframe.CRC_error = 1;
+[e = . _eframe 1 -> -> 1 `i `uc ]
+"76
+[; ;Slave_ModbusRTU.c: 76:     }else{
+}
+[e $U 113  ]
+[e :U 112 ]
+{
+"77
+[; ;Slave_ModbusRTU.c: 77:         eframe.CRC_error = 0;
+[e = . _eframe 1 -> -> 0 `i `uc ]
+"78
+[; ;Slave_ModbusRTU.c: 78:     }
+}
+[e :U 113 ]
+"79
+[; ;Slave_ModbusRTU.c: 79:     return eframe;
+[e ) _eframe ]
+[e $UE 109  ]
+"80
+[; ;Slave_ModbusRTU.c: 80: }
+[e :UE 109 ]
+}
+"83
+[; ;Slave_ModbusRTU.c: 83: void SendErrorFrame(ErrorFrame Eframe,uint8_t function){
+[v _SendErrorFrame `(v ~T0 @X0 1 ef2`S95`uc ]
+{
+[e :U _SendErrorFrame ]
+[v _Eframe `S95 ~T0 @X0 1 r1 ]
+[v _function `uc ~T0 @X0 1 r2 ]
+[f ]
+"84
+[; ;Slave_ModbusRTU.c: 84:     if(send == 0){
+[e $ ! == -> _send `i -> 0 `i 115  ]
+{
+"86
+[; ;Slave_ModbusRTU.c: 86:         ModbusFrame[0] = (uint8_t)0x31;
+[e = *U + &U _ModbusFrame * -> -> -> 0 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux -> -> 49 `i `uc ]
+"87
+[; ;Slave_ModbusRTU.c: 87:         ModbusFrame[1] = function | 0x80;
+[e = *U + &U _ModbusFrame * -> -> -> 1 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux -> | -> _function `i -> 128 `i `uc ]
+"88
+[; ;Slave_ModbusRTU.c: 88:         ModbusFrame[2] = 0x00;
+[e = *U + &U _ModbusFrame * -> -> -> 2 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux -> -> 0 `i `uc ]
+"89
+[; ;Slave_ModbusRTU.c: 89:         ModbusFrame[3] = Eframe.Function_error;
+[e = *U + &U _ModbusFrame * -> -> -> 3 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux . _Eframe 0 ]
+"90
+[; ;Slave_ModbusRTU.c: 90:         ModbusFrame[4] = Eframe.CRC_error;
+[e = *U + &U _ModbusFrame * -> -> -> 4 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux . _Eframe 1 ]
+"91
+[; ;Slave_ModbusRTU.c: 91:         ModbusFrame[5] = 0x00;
+[e = *U + &U _ModbusFrame * -> -> -> 5 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux -> -> 0 `i `uc ]
+"92
+[; ;Slave_ModbusRTU.c: 92:         uint16_t CRC = CRCcheck(ModbusFrame,4 + 2);
+[v _CRC `ui ~T0 @X0 1 a ]
+[e = _CRC ( _CRCcheck (2 , &U _ModbusFrame -> + -> 4 `i -> 2 `i `uc ]
+"93
+[; ;Slave_ModbusRTU.c: 93:         ModbusFrame[6] = CRC & 0xFF;
+[e = *U + &U _ModbusFrame * -> -> -> 6 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux -> & _CRC -> -> 255 `i `ui `uc ]
+"94
+[; ;Slave_ModbusRTU.c: 94:         ModbusFrame[7] = CRC >> 8;
+[e = *U + &U _ModbusFrame * -> -> -> 7 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux -> >> _CRC -> 8 `i `uc ]
+"95
+[; ;Slave_ModbusRTU.c: 95:         ModbusFrame[8] = '\0';
+[e = *U + &U _ModbusFrame * -> -> -> 8 `i `ui `ux -> -> # *U &U _ModbusFrame `ui `ux -> -> 0 `ui `uc ]
+"97
+[; ;Slave_ModbusRTU.c: 97:         UARTsendString((char*)ModbusFrame);
+[e ( _UARTsendString (1 -> &U _ModbusFrame `*uc ]
+"98
+[; ;Slave_ModbusRTU.c: 98:         send = 1;
+[e = _send -> -> 1 `i `b ]
+"99
+[; ;Slave_ModbusRTU.c: 99:     }
+}
+[e :U 115 ]
+"100
+[; ;Slave_ModbusRTU.c: 100: }
+[e :UE 114 ]
+}
+"103
+[; ;Slave_ModbusRTU.c: 103: __bit Slave_DataHandling(uint8_t *buf)
+[v _Slave_DataHandling `(b ~T0 @X0 1 ef1`*uc ]
+"104
+[; ;Slave_ModbusRTU.c: 104: {
+{
+[e :U _Slave_DataHandling ]
+"103
+[; ;Slave_ModbusRTU.c: 103: __bit Slave_DataHandling(uint8_t *buf)
+[v _buf `*uc ~T0 @X0 1 r1 ]
+"104
+[; ;Slave_ModbusRTU.c: 104: {
+[f ]
+"106
+[; ;Slave_ModbusRTU.c: 106:     if(buf[0] != 0x31){
+[e $ ! != -> *U + _buf * -> -> 0 `i `x -> -> # *U _buf `i `x `i -> 49 `i 117  ]
+{
+"107
+[; ;Slave_ModbusRTU.c: 107:         return 0;
+[e ) -> -> 0 `i `b ]
+[e $UE 116  ]
+"108
+[; ;Slave_ModbusRTU.c: 108:     }
+}
+[e :U 117 ]
+"110
+[; ;Slave_ModbusRTU.c: 110:     if((buf[1] & 0x80) == 0x80){
+[e $ ! == & -> *U + _buf * -> -> 1 `i `x -> -> # *U _buf `i `x `i -> 128 `i -> 128 `i 118  ]
+{
+"111
+[; ;Slave_ModbusRTU.c: 111:         RB1 = 1;
+[e = _RB1 -> -> 1 `i `b ]
+"112
+[; ;Slave_ModbusRTU.c: 112:         return 0;
+[e ) -> -> 0 `i `b ]
+[e $UE 116  ]
+"113
+[; ;Slave_ModbusRTU.c: 113:     }
+}
+[e :U 118 ]
+"115
+[; ;Slave_ModbusRTU.c: 115:     ErrorFrame eframe = ReceiveData_Check(buf);
+[v _eframe `S95 ~T0 @X0 1 a ]
+[e = _eframe ( _ReceiveData_Check (1 _buf ]
+"117
+[; ;Slave_ModbusRTU.c: 117:     if(eframe.Function_error == 0x01 || eframe.CRC_error == 0x01){
+[e $ ! || == -> . _eframe 0 `i -> 1 `i == -> . _eframe 1 `i -> 1 `i 119  ]
+{
+"119
+[; ;Slave_ModbusRTU.c: 119:         SendErrorFrame(eframe, buf[1]);
+[e ( _SendErrorFrame (2 , _eframe *U + _buf * -> -> 1 `i `x -> -> # *U _buf `i `x ]
+"120
+[; ;Slave_ModbusRTU.c: 120:         return 0;
+[e ) -> -> 0 `i `b ]
+[e $UE 116  ]
+"121
+[; ;Slave_ModbusRTU.c: 121:     }
+}
+[e :U 119 ]
+"123
+[; ;Slave_ModbusRTU.c: 123:     return 1;
+[e ) -> -> 1 `i `b ]
+[e $UE 116  ]
+"124
+[; ;Slave_ModbusRTU.c: 124: }
+[e :UE 116 ]
+}
